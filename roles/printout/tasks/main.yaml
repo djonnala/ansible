@@ -1,0 +1,5 @@
+---
+
+- name: Show the variables
+  debug:
+    msg: "Username is {{ username }} and password is {{ password }}"
